@@ -28,7 +28,7 @@ const Booking = () => {
     setIsHovered(!isHovered);
   }
   const [isHovered, setIsHovered] = useState(false);
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent) => {
     if (submitType.length < 3) {
     e.preventDefault();
     dispatch(blur2(1))

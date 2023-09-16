@@ -26,7 +26,7 @@ const Box = () => {
     const [isHovered, setIsHovered] = useState(false);
 
     const inputs = useSelector((state: RootState) => state.booking.inputs)
-    const handleSubmit = (e) => {
+    const handleSubmit = (e: React.FormEvent) => {
       e.preventDefault();
       dispatch(blur2(0))
       enableBodyScroll()
