@@ -86,7 +86,7 @@ const Booking = () => {
       <select className=' bg-[#222222] border-2 pr-4 h-14 pl-5 hover:border-blue-600 border-[#444444] rounded-lg text-lg' 
       name="salon" id="salon" required onChange={(e) => setSalon(e.target.value)} value={salon}>
 
-        <option value="" disabled selected>Select the Salon</option>
+        <option value="" disabled>Select the Salon</option>
         <option value="New York">Vivid - New York</option>
         <option value="Los Angeles">Vivid - Los Angeles</option>
         <option value="Miami">Vivid - Miami</option>
@@ -97,7 +97,7 @@ const Booking = () => {
       <label className='text-2xl font-bold text-[silver]' >Hairstylist <span className='text-blue-500 ml-[-2px] font-[1000]'>*</span></label>
       <select className=' bg-[#222222] border-2 h-14 pl-5 hover:border-blue-600 border-[#444444] rounded-lg text-lg' 
       name="hairstylist" id="hairstylist" required onChange={(e) => setHairstylist(e.target.value)} value={hairstylist}>
-      <option value="" disabled selected>Select the Hairstylist</option>
+      <option value="" disabled>Select the Hairstylist</option>
         <option value="emily" >Emily Johnson</option>
         <option value="sophia">Sophia Martinez</option>
         <option value="olivia">Olivia Davis</option>
