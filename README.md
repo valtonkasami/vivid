@@ -1,34 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+- Valton Kasami
 
-## Getting Started
+As the sole developer behind Vivid, I conceptualized, designed, and brought this project to life. My goal was to create a uniqe and creative design and concepts.
 
-First, run the development server:
+Vivid isn't your typical hair salon appointment website; it's a masterpiece meticulously designed to provide a seamless and visually enchanting booking experience. Every element, from the vibrant colors to the elegant animations and user-friendly widgets, contributes to making Vivid truly exceptional.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+As you scroll down you will see a form with inputs asking you questions about your appointment where you can input all of your specific answers such as the location, date, time etc... upon clicking the book now button you will see a a pop up appear and the background will get blurry and dark. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The pop up has another form called Personal Information where you can enter your personal details, then upon clicking book now the pop up will go away and you will see a little counter appear at the top of the appointments icon on the navbar, that counts how many appointments you have made, then upon clicking that icon you will see all of your apppointments, the location, the date and the time, and you can see a clear button which will clear all the appointments and the counter will disappear since its back to 0.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Complex functionalities were implemented using Redux such as when you make more than 3 appointments you will see a message pop up that the limit is 3 appointments and on the message theres an X button where you can click it to remove the message, also when theres a pop up you can just click the background and the pop up will go away. and using Redux Persist I successfully achieved state persistence on the client side, guaranteeing that whenever a user returns to Vivid, the collection of their Appointments remains in the exact state they left it.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Vivid seamlessly adapts to various screen sizes, ensuring a delightful experience for users across all devices. Whether you're on a desktop, tablet, or smartphone, Vivid's visual appeal and functionality remain top-notch.
 
-## Learn More
+The website was created using Next.js so it has features such as Server Side Rendering which is an important skill for developers. Through this project I show my abilities to work with the greatest up to date technologies to create top-notch websites.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Vivid is not just a technical showcase but a testament to my commitment to user-centric design and creative problem-solving. It represents my dedication to delivering exceptional and innovative solutions to meet project constraints while keeping the user's experience at the forefront.
