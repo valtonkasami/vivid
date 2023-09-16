@@ -32,16 +32,22 @@ const Navbar = () => {
         
       };
 
+      useEffect(() => {
       const handleResize = () => {
-        if (isNotSubmited && window.innerWidth > 1023) {
+        if (typeof window !== 'undefined' && isNotSubmited && window.innerWidth > 1023) {
           dispatch(slide(0))
           enableBodyScroll()
         }
     }
-
-    window.addEventListener('resize', handleResize);
-
-    handleResize();
+    
+      window.addEventListener('resize', handleResize);
+    
+      
+    
+      return () => {
+        window.removeEventListener('resize', handleResize);
+      };
+    }, [isNotSubmited, dispatch, enableBodyScroll, slide]);
 
   return (
     <header className=''>
