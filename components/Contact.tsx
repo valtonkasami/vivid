@@ -13,7 +13,7 @@ const Contact = () => {
 
 <div className='max-sm:w-full relative flex flex-col max-ipad:items-center max-ipad:mb-16 z-10'>
 
-<div className='bg-blue-800 absolute blur-[150px] rounded-full h-[400px] w-[400px] top-[100px] left-[-0px] max-ipad:left-[70px] max-sm:left-[-35px] z-0'></div>
+<div className='bg-blue-800 max-sm:hidden absolute blur-[150px] rounded-full h-[400px] w-[400px] top-[100px] left-[-0px] max-ipad:left-[70px] max-sm:left-[-35px] z-0'></div>
 
         <div className='max-ipad:text-center'>
         <h1 className='relative text-2xl max-sm:text-xl font-[1000] text-blue-500 sm:mb-3'>Contact Us</h1>

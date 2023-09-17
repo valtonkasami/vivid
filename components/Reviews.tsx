@@ -21,7 +21,7 @@ const Reviews = () => {
             
 
             <div className='px-5 w-full mt-10 relative'>
-            <div className='w-full left-0 blur-[150px] mt-14  h-[70%] bg-blue-600 absolute'></div>
+            <div className='w-full left-0 blur-[150px] mt-14  h-[70%] bg-blue-600 max-sm:hidden absolute'></div>
             <div className='relative lg:hidden w-full h- bg-[#222222] border-[6px] border-[#444444] hover:border-blue-600 rounded-[20px]'>
                 
                 <div className='mx-5 my-5'>

@@ -58,7 +58,7 @@ const Navbar = () => {
         <div className='z-10 flex absolute h-[100px] items-center'>
           
             <div className='relative'>
-            <div className='bg-pink-700 h-16 w-[310px] blur-3xl absolute top-[-20px] left-[-20px] max-sm:left-[-100px]'></div>
+            <div className='bg-pink-700 max-sm:bg-blue-700 max-sm:blur-[80px] h-16 w-[310px] blur-3xl absolute top-[-20px] left-[-20px] max-sm:left-[-100px]'></div>
             <div className='relative ml-20 max-sm:ml-5 text-5xl'>
             <a href='/'><h1 className='curvy hover:text-pink-400'>Vivid</h1></a>
             </div>

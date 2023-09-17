@@ -1,5 +1,7 @@
 - Valton Kasami
 
+LIVE DEMO: https://vivid-valtonkasami.vercel.app/
+
 As the sole developer behind Vivid, I conceptualized, designed, and brought this project to life. My goal was to create a Unique and Creative design and concepts.
 
 Vivid isn't your typical hair salon appointment website; it's a masterpiece meticulously designed to provide a seamless and visually enchanting booking experience. Every element, from the vibrant colors to the elegant animations and user-friendly widgets, contributes to making Vivid truly exceptional.

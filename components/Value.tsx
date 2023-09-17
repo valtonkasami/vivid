@@ -23,7 +23,7 @@ const Value = () => {
       </div>
 
       <div className='relative max-sm:w-full max-sm:px-2 pt- max-ipad:mb-24 max-sm:mb-16 max-ipad:pt-0 max-big:ml-20 max-ipad:ml-0'>
-      <div className='bg-blue-800 absolute blur-[150px] rounded-full h-[400px] w-[400px] top-[00px] left-[-0px] max-ipad:left-[70px] max-sm:left-[-35px] z-0'></div>
+      <div className='bg-blue-800 max-sm:hidden absolute blur-[150px] rounded-full h-[400px] w-[400px] top-[00px] left-[-0px] max-ipad:left-[70px] max-sm:left-[-35px] z-0'></div>
       <div className='relative z-2 flex flex-col max-ipad:items-center'>
         <h1 className='text-2xl font-[1000] text-blue-500 sm:mb-3'>Our Value</h1>
         <h1 className='text-4xl max-sm:text-3xl font-[1000] max-sm:w-[350px]'>

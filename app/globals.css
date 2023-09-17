@@ -43,19 +43,43 @@ input {
   color-scheme: dark;
 }
 
-input[type="date"]::-webkit-calendar-picker-indicator {
-  cursor: pointer;
-  font-size: 24px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
 input[type="time"]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   font-size: 24px;
   padding-left: 20px;
   padding-right: 20px;
 }
+
+input[type=date],
+ input[type=time] {
+     outline           : 0;
+     display           : flex;
+     justify-content   : center;
+     position          : relative;
+     width             : 100%;
+     margin            : 0;
+ }
+
+ input[type=date]::-webkit-calendar-picker-indicator,
+ input[type=time]::-webkit-calendar-picker-indicator {
+     background: none;
+     bottom    : 0;
+     color     : transparent;
+     cursor    : pointer;
+     height    : auto;
+     left      : 0;
+     position  : absolute;
+     right     : 0;
+     top       : 0;
+     width     : auto;
+ }
+
+
+ input[type=date]::-webkit-datetime-edit,
+ input[type=time]::-webkit-datetime-edit {
+     text-align: left;
+     width     : 100%;
+ }
 
 .calc {
   top: calc((100vh - 480px) / 2);

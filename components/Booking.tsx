@@ -118,13 +118,13 @@ const Booking = () => {
       <div className='flex flex-col gap-y-2'>
       <label className='text-2xl text-[silver]  font-bold' >Date <span className='text-blue-500 ml-[-2px] font-[1000]'>*</span></label>
       <input className='bg-[#222222] border-2 h-14 pl-5 hover:border-blue-600 border-[#444444] rounded-lg text-lg' type='date' 
-      name="date" id="date" required onChange={(e) => setDate(e.target.value)} value={date} />
+      name="date" id="date" required placeholder="MM/DD/YYYY" onChange={(e) => setDate(e.target.value)} value={date} />
       </div>
 
       <div className='flex flex-col gap-y-2'>
       <label className=' text-2xl font-bold text-[silver] ' >Time <span className='text-blue-500 ml-[-2px] font-[1000]'>*</span></label>
       <input className=' bg-[#222222] border-2 h-14 pl-5 hover:border-blue-600 border-[#444444] rounded-lg text-lg' type='time' 
-      name="time" id="time" required onChange={(e) => setTime(e.target.value)} value={time}/>
+      name="time" id="time" required placeholder="HH:MM" onChange={(e) => setTime(e.target.value)} value={time}/>
       </div>
 
       <div className='flex flex-col gap-y-2'>
