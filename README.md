@@ -1,6 +1,6 @@
 - Valton Kasami
 
-LIVE DEMO: https://vivid-valtonkasami.vercel.app/
+👉 Live Demo: https://vivid-valtonkasami.vercel.app/
 
 As the sole developer behind Vivid, I conceptualized, designed, and brought this project to life. My goal was to create a Unique and Creative design and concepts.
 
